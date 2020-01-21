@@ -1,0 +1,21 @@
+{
+  "name": "hooks-form-validator",
+  "version": "1.0.0",
+  "description": "library to import inside your hooks form components",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test:watch": "jest --watch",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.9.0",
+    "@types/react": "^16.9.17",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.7.5"
+  }
+}
