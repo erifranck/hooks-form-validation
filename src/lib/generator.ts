@@ -11,3 +11,13 @@ export function composeValidator(validators: Validator[]) : Validator{
     return null;
   }
 }
+
+export function findFirstTrue(errors: boolean[] ) : boolean {
+  for (var i = 0, len = errors.length; i < len; i++) {
+    const error = errors[i];
+    if(error) {
+      return error;
+    }
+  }
+  return false;
+}
