@@ -9,6 +9,7 @@ export type Validator = (value: string) => FormError;
 export interface ValidatorObject<t> {
   [key: string]: {
     validator: Validator;
+    type: string;
     value: t;
   };
 }
